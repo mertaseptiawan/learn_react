@@ -1,10 +1,10 @@
-import './App.css';
-import Employee from './component/Employee';
+import "./App.css";
+import Employee from "./component/Employee";
 
 function App() {
   const showEmployees = true;
   return (
-    <div className="App">
+    <div className="App bg-red-400">
       {showEmployees ? (
         <div>
           <Employee name="merta" />
